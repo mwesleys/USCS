@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-areas: 'content header'
+                         'content aside';
+    grid-template-rows: 15vh 85vh;
+    grid-template-columns: 78% 22%;  
+}
+.itemA {
+    grid-row: 1/2;
+    height: 752.5px;
+    display: flex;
+       }
+    
+.itemA i{
+        padding-top: 25px;
+        margin-bottom: 25px;
+        margin-right: 10px;
+        margin-left: 20px;
+        }
+
